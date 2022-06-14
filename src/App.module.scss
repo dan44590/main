@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+
+  &_header {
+    background: #806bff;
+    width: 1440px;
+    height: 134px;
+  }
+
+  &_header__img {
+    width: 220px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 60px;
+  }
+
+  &_block {
+    display: flex;
+    margin-top: 57px;
+    margin-left: 60px;
+  }
+
+  &_block__inp {
+    width: 1000px;
+    height: 90px;
+    font-size: 24px;
+    border-radius: 20px;
+    background: #e6e6e6;
+  }
+
+  &_block__btn {
+    width: 180px;
+    height: 96px;
+    font-size: 24px;
+    border-radius: 20px;
+    background: #e6e6e6;
+    position: absolute;
+    margin-left: 980px;
+  }
+
+  &_image{
+    display: flex;
+      }
+&_image__img1{
+  width: 400px;
+  height: 365px;
+  border: solid 1px black;
+  margin-top: 20px;
+}
+
+  &_image__img2{
+    width: 400px;
+    height: 365px;
+    border: solid 1px black;
+    margin-top: 20px;
+  }
+
+  &_image__img3{
+    width: 400px;
+    height: 365px;
+    border: solid 1px black;
+    margin-top: 20px;
+  }
+
+  &_image__img4{
+    width: 400px;
+    height: 365px;
+    border: solid 1px black;
+    margin-top: 20px;
+  }
+
+  }
+p{
+  font-size: 26px;
+}
+
